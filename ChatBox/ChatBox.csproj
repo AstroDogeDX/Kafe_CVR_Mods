@@ -1,6 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
+<<<<<<< HEAD
   <ItemGroup>
     <Folder Include="Resources" />
   </ItemGroup>
+=======
+
+    <ItemGroup>
+        <Reference Include="BTKUILib">
+            <HintPath>$(MsBuildThisFileDirectory)\..\ManagedLibs\BTKUILib.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Resources\chatbox.assetbundle">
+            <LogicalName>chatbox.assetbundle</LogicalName>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Resources\Sounds_Message.wav">
+            <LogicalName>chatbox.sound.message.wav</LogicalName>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Resources\Sounds_Typing.wav">
+            <LogicalName>chatbox.sound.typing.wav</LogicalName>
+        </EmbeddedResource>
+    </ItemGroup>
+
+>>>>>>> e6873e913615683d7f7bc1402aa8f14a531b8a5c
 </Project>
